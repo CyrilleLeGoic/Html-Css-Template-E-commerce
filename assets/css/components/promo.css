@@ -1,0 +1,45 @@
+.promo-icon {
+   
+}
+
+.promo-icon i {
+    color : var(--main-color);
+    font-size: 1.5rem;
+}
+
+.promo-image img {
+    min-height: 232px;
+    height : 284px;
+    object-fit: cover;
+    /* voir le haut de l'image */
+    object-position: center;
+}
+
+
+
+.promo-item .promo-details h3 {
+    font-size : 0.9rem;
+
+}
+
+.promo-item .promo-header {
+    height: 90px;
+
+}
+
+@media screen and (max-width : 992px) {
+    .promo-item {
+        min-width : auto;
+    }
+}
+
+@media screen and (max-width : 992px) {
+    
+    .promo-container {
+        flex-direction: column;
+        width : 90%;
+        margin : 0 auto;
+    }
+}
+
+
