@@ -1,0 +1,129 @@
+footer{
+    background-color: var(--main-color-black);
+    color : var(--main-color-white);
+}
+
+.footer-item {
+    padding : 5px 0;
+}
+
+footer .footer-item h4 {
+    text-transform: uppercase;
+    margin : 8px 0;
+    font-size: 1.1rem;
+}
+
+footer .footer-item p {
+    margin : 8px 0;
+}
+
+/****** Footer List ********/
+
+footer .footer-list {
+    width : 300px;
+}
+
+footer .footer-list h2 {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    margin : 20px 0;
+}
+
+footer .footer-list ul li {
+    font-size: 1.1rem;
+    padding : 3px 0;
+}
+
+.footer-tags {
+    padding : 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap : 10px;
+}
+
+.footer-tags .tags {
+    border : 1px solid var(--main-color-white);
+    padding : 4px;
+    font-size: 1.1rem;
+    flex: 1;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer .footer-subscribe p{
+    font-size: 1.1rem;
+}
+
+footer .footer-input {
+    display : flex
+}
+
+footer .footer-input input {
+    flex: 1;
+    height : 40px;
+    padding : 5px;
+    border : none;
+    outline: none;
+    border-radius: 50px;
+    background-color: #464545;
+    padding : 0 20px;
+    color : var(--main-color-white);
+    font-size: 1rem;
+}
+
+footer .footer-input input::placeholder {
+    color : var(--main-color-white);
+    font-size: 1rem;
+}
+
+footer .footer-subscribe button.btn {
+
+    border : none;
+    outline: none;
+    background-color: var(--main-color);
+    color : var(--main-color-white);
+    font-size: 1rem;
+    cursor: pointer;
+    padding : 10px 20px;
+    margin : 15px 5px;
+    font-weight: bold;
+    height : 45px;
+    border-radius: 35px;
+}
+.footer-bottom-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom-right{
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding : 3px;
+}
+
+.footer-bottom-right img {
+    width : 50px;
+    margin : 10px 0;
+    object-fit: contain;
+    
+}
+
+@media screen and (max-width : 768px) {
+
+    /*agrandir les titres*/
+    footer .footer-list h2 {
+        font-size: 1.4rem;
+    }
+    .footer-content {
+        justify-content: center;
+    }
+
+    .footer-bottom {
+        justify-content: center;
+        gap : 10px;
+    }
+    
+
+}
