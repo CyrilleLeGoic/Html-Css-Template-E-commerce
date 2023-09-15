@@ -1,0 +1,45 @@
+.pub-banner-container {
+    background-color: #eeecec;
+    margin-top: 30px;
+}
+
+
+.pub-item {
+    width : 300px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pub-item-icon{
+    width : 80px;
+    height : 80px;
+    border : 2px solid var(--main-color);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 10px auto;
+}
+
+.pub-item-icon i{
+    color : var(--main-color);
+    font-size: 2rem;
+}
+
+.pub-item-title h2 {
+    font-size : 1.2rem;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width : 768px) {
+    
+    .pub-banner {
+        flex-direction: column;
+    }
+
+    .pub-item {
+        width : 90%;
+        margin : 10px auto;
+    }
+}

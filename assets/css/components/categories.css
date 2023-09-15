@@ -1,0 +1,31 @@
+.categories-list {
+    flex-wrap: wrap;
+}
+
+.category-item {
+    width : 300px;
+    cursor: pointer;
+}
+
+.category-image img {
+    border : 1px solid #ccc;
+    object-fit: cover;
+    object-position: center;
+    height : 400px;
+}
+
+.category-item .category-details {
+    text-align: center;
+}
+
+.category-item .category-name {
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding : 5px
+}
+
+.category-item .product-stock {
+    color: var(--main-color-gray);
+    padding : 5px
+}

@@ -808,6 +808,10 @@ img {
     margin-left: auto;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 @media (min-width:576px) {
     .container-sm, .container {
         max-width: 540px;

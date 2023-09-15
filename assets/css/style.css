@@ -17,3 +17,8 @@ i:hover {
 .pages {
     height : 200vh
 }
+
+.divider{
+    border : 0.1px solid var(--main-color-gray);
+    margin : 20px 0;
+}
